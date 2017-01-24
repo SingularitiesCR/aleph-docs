@@ -27,7 +27,7 @@ A Modal State is a possible world that represents your data in a consistent stat
 
 An information set can be represented in various ways. Example, since an Information Set holds constrains referring to a Data Set and contains these constrains as Belief States, each state can be seen as a stack column with a set of conditionals linked to it.
 
-![](/images/infoset-example.png)
+![](images/infoset-example.png)
 
 [block:code]
 {

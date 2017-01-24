@@ -14,7 +14,7 @@ A comprehensive list of all operations
 Let's use the following Information set as example for all Operations:
 This Information set has only one Belief Systems. The Belief System has the following 8 States.
 
-![](/images/infoset-example-survey.png)
+![](images/infoset-example-survey.png)
 
 ## Believes
   

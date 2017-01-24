@@ -5,7 +5,7 @@ order: 2
 ---
 Clustering is the process of grouping multiple objects (**transactions, entities, people...**) resulting in groups that contain objects similar to each other.
 
-![](/images/clustering.png)
+![](images/clustering.png)
 
 Some Data Sets can be clustered by their own variables. Example:
 
