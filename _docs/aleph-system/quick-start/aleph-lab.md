@@ -12,11 +12,11 @@ The Aleph GUI was created to consume the Aleph system in a friendly way and it's
 
 Go to the Singularities' Aleph Web application and **Sign Up**.
 
-![](images/alephlab-login.png)
+![]({{ site.url }}/images/alephlab-login.png)
 
 Fill the form and submit it.
 
-![](images/alephlab-signup.png)
+![]({{ site.url }}/images/alephlab-signup.png)
 
 Now that you're registered, **log in**.
 
