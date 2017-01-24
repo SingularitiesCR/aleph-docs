@@ -10,7 +10,7 @@ The Jekyll Theme used for this documentation was **Edition Jekyll Template** dev
 
 ## Pre-requirements
 
-1. Ruby (*If you are developing in OSX, install **Ruby** with RVM instead of Homebrew to avoid issues with some gems*)
+1. Ruby (*If you are developing in OSX, install* ***Ruby*** *with RVM instead of Homebrew to avoid issues with some gems*)
 2. Bundler (*A Ruby gem*)
 
 ## Setup
@@ -19,6 +19,8 @@ The Jekyll Theme used for this documentation was **Edition Jekyll Template** dev
 2. On the root of the project run `bundle install`.
 
 To generate the files locally and preview them, run `bundle exec jekyll serve`.
+
+> The **Pull Request** should be merge to a version branch instead of the **master** branch.
 
 ## Add Content
 
