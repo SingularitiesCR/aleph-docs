@@ -9,7 +9,7 @@ This is the **Official Documentation** for the Aleph System. These **Docs** will
 ### Getting Started
 
 The Aleph System is a data analyser that will give the user relevant information about their own data; it'll find patterns, behaviours, beliefs and many other relevant information.
-![](/images/infogram-aleph.png)
+![]({{ site.url }}/images/infogram-aleph.png)
 The following video will explain how Singularities' Aleph can benefit the user.
 
 <div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/E1vQWzVbsgc" frameborder="0" allowfullscreen></iframe>
