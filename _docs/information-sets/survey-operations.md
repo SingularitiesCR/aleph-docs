@@ -4,21 +4,21 @@ category: Information Set
 order: 3
 ---
 
-A comprehensive list of all operations 
+A comprehensive list of all operations.
 
 * TOC
 {:toc}
 
 ## Example
 
-Let's use the following Information set as example for all Operations:
-This Information set has only one Belief Systems. The Belief System has the following 8 States.
+Let's use the following Information Set as an example for all Operations:
+This Information Set has only one Belief System. The Belief System has the following 8 States.
 
 ![]({{ site.url }}/images/infoset-example-survey.png)
 
 ## Believes
   
-Return if the observation is True within the knowledge in all of the Belief States in the Belief System
+Return if the observation is True within the knowledge in all of the Belief States in the Belief System.
 
 #### YAML
 ```yaml
@@ -40,7 +40,7 @@ Yes
 
 ## Contradicts
   
-Return if the observation is Flase within the knowledge in all of the Belief States in the Belief System
+Return if the observation is False within the knowledge in all of the Belief States in the Belief System.
 
 #### YAML
 ```yaml
@@ -50,7 +50,7 @@ Return if the observation is Flase within the knowledge in all of the Belief Sta
 
 #### Real World Example
 ```text
-Do you believes that nachos is not equal to 1?
+Do you believe that nachos is not equal to 1?
 ```
 
 With the [example](./survey-operations#section-example) 
@@ -62,8 +62,7 @@ Yes
 
 ## Diagnose
   
-A logical explanation of why each of the states of your information set can't accept the expression
-If your expression is accepted an empty set will be returned
+A logical explanation of why each of the states of your Information Set can't accept the expression. If your expression is accepted, an empty set will be returned.
 
 #### YAML
 ```yaml
@@ -75,7 +74,7 @@ If your expression is accepted an empty set will be returned
 
 #### Real life example
 ```text
-What contradicts the possibility of Day been Monday and Taco equals 1?
+What contradicts the possibility of Day being Monday and Taco equals 1?
 ```
 
 With the [example](./survey-operations#section-example) 
@@ -90,7 +89,7 @@ Because weekday is Midweek in State 2
 ## Explanation
   
 The logical set of rules that create each of the states of the Information Set.
-A rule will explain 1 or more states.
+A rule explains 1 or more states.
 
 #### YAML
 ```yaml
@@ -111,7 +110,7 @@ State 3 is defined by:
 
 ## Get Value
   
-Retrieve the value of the Key. If there isn't a consistency within the States null is returned
+Retrieves the value of the Key. If there isn't consistency within all the States, null is returned.
 
 #### YAML
 ```yaml
@@ -133,7 +132,7 @@ Chicken is equal to One
 
 ## Hypotesis
   
-Returns if the each of the belief systems will  [Believes](doc:survey-operations#section-believes) a hypothesis after be Revised by the assumption. 
+Returns if each of the belief systems will  [Believes](doc:survey-operations#section-believes) a hypothesis after being Revised by the assumption.
 
 #### YAML
 ```yaml
@@ -147,7 +146,7 @@ Returns if the each of the belief systems will  [Believes](doc:survey-operations
 
 #### Real World Example
 ```text
-Will nachos equal 1 be belive if tacos been 1 is added to the System?
+Will nachos equal 1 be belived if tacos being 1 is added to the System?
 ```
 
 With the [example](./survey-operations#section-example) 
@@ -159,7 +158,7 @@ True
 
 ## Is consistent
   
-Return if the expression is True in at least one Belief State
+Return if the expression is True in at least one Belief State.
 
 #### YAML
 ```yaml
@@ -182,7 +181,7 @@ Yes
 
 ## Is probable
   
-Return if the position of the Key equal Value is greater than half.
+Return if the position of the Key equals Value is greater than half.
 
 #### YAML
 ```yaml
@@ -205,8 +204,7 @@ Yes
 
 ## Mentions
 
-List all keys with all its possible values and its positions 
-Optional you could specify a key
+Lists all keys with all its possible values and its positions. Optionally, you could specify a key.
 
 #### YAML
 ```yaml
@@ -251,7 +249,7 @@ Mentions of all keys:
 
 ## Multiple Choice
   
-Of a list of possible values, Yes or No are marked if the Information Set believes it's value is possible. If the value is unknown no answer will be return 
+Of a list of possible values, Yes or No are marked if the Information Set believes its value is possible. If the value is unknown, no answer will be returned.
 
 #### YAML
 ```yaml
@@ -303,7 +301,7 @@ With the [example](./survey-operations#section-example)
 
 ## Time
   
-Returns the time of the operation
+Returns the time of the operation in the System. Important in Simulations, when time is altered to predict results.
 
 #### YAML
 ```yaml
