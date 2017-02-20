@@ -186,8 +186,7 @@ Return if the position of the Key equals Value is greater than half.
 #### YAML
 ```yaml
 - type: is_probable
-  key: burgers
-  value: "{1} int32"
+  expression: "nachos : {1} int32"
 ```
 
 #### Real World Example
